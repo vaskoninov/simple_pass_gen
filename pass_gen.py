@@ -14,16 +14,16 @@ def main():
     sig_n = get_value("How many punctuation signs? ")
 
     for i in range(0, upp_n):
-    raw_data.append(random.choice(alphabet_upper))
+        raw_data.append(random.choice(alphabet_upper))
 
     for j in range(0, num_n):
-    raw_data.append(random.choice(numbers))
+        raw_data.append(random.choice(numbers))
 
     for k in range(0, sig_n):
-    raw_data.append(random.choice(signs))
+        raw_data.append(random.choice(signs))
 
     for l in  range(0, (length - upp_n - num_n - sig_n)):
-    raw_data.append(random.choice(alphabet_lower))
+        raw_data.append(random.choice(alphabet_lower))
 
     random.shuffle(raw_data)
 
