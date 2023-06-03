@@ -33,11 +33,11 @@ def main():
 
 def get_value(prompt):
     while True:
-    try:
-      value = int(input(prompt))
-      break
-    except ValueError:
-      continue
+        try:
+            value = int(input(prompt))
+            break
+        except ValueError:
+            continue
     return value
 
 if __name__ == "__main__":
